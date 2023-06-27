@@ -183,7 +183,8 @@ button {
 */
 
 .section-hero {
-  background-image: url(../images/hero-people-office.jpg), linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-image: linear-gradient (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/hero-people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -240,6 +241,20 @@ button {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
+.antenna-1,
+.clock-1,
+.diagram-1,
+.astronaut-1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  }
+  
 .features-title {
   margin-bottom: 8px;
   font-family: var(--primary-font);
