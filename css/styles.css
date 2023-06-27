@@ -241,10 +241,7 @@ button {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
-.antenna-1,
-.clock-1,
-.diagram-1,
-.astronaut-1
+.icon-1
 {
   display: flex;
   align-items: center;
@@ -254,7 +251,7 @@ button {
   border-radius: 4px;
   margin-bottom: 8px;
   }
-  
+
 .features-title {
   margin-bottom: 8px;
   font-family: var(--primary-font);
