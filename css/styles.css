@@ -241,7 +241,7 @@ button {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
-.icon-1
+.icon
 {
   display: flex;
   align-items: center;
