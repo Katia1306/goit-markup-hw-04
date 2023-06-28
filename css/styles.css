@@ -520,6 +520,8 @@ justify-content: center;
   .ft-networks-item {
     width: 40px;
     height: 40px;
+    background-color: 250ms;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .ft-networks-link{
     width: 100%;
@@ -531,7 +533,7 @@ justify-content: center;
     justify-content: center;
 }
 .ft-networks-link:hover,
-.ft-networks-focus {
+.ft-networks-link:focus {
   background-color: var(--light-green);
 }
 .ft-icon {
