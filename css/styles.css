@@ -12,6 +12,7 @@
 --violet:#404BBF;
 --slate: #434455;
 --button:  #e7e9fc;
+
 }
 
 /* Common styles */
@@ -317,6 +318,32 @@ button {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
  }
+
+ .networks-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.networks-item {
+  width: 40px;
+  height: 40px;
+}
+.networks-link {
+width: 100%;
+height: 100%;
+background-color: var(--logo-color);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.networks-link:hover,
+.networks-link:focus {
+  background-color: var(--violet);
+}
+.netw-icon{
+  fill: var(--cloud);
+}
 .team-worker {
   text-align: center;
   margin-bottom: 8px;
