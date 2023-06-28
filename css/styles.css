@@ -471,7 +471,13 @@ justify-content: center;
 .footer { 
   padding: 100px 0;
   background-color: #2e2f42;}
-
+.footer-general {
+    display: flex;
+    align-items: baseline;
+  }
+  .ft-logo {
+    margin-right: 120px;
+  }
 .footer-logo {
         display: inline-block;
         margin-bottom: 16px;
