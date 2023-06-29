@@ -339,8 +339,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-transition: cubic-bezier(0.4, 0, 0.2, 1);
-background-color: 250ms;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .networks-link:hover,
 .networks-link:focus {
@@ -404,6 +403,7 @@ background-color: 250ms;
   align-items: center;
   justify-content: center;
   color: var(--grey);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover, 
 .customers-link:focus {
@@ -413,10 +413,7 @@ background-color: 250ms;
 .cst-icon {
   fill: currentColor;
 }
-.customers-link:hover
-.cst-icon {
-  fill: var(--violet);
-}
+
 
 /**
   |============================
@@ -446,6 +443,7 @@ background-color: 250ms;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-text:hover,
 .btn-text:focus {
@@ -566,8 +564,6 @@ background-color: 250ms;
   .ft-networks-item {
     width: 40px;
     height: 40px;
-    background-color: 250ms;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .ft-networks-link{
     width: 100%;
@@ -577,11 +573,9 @@ background-color: 250ms;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.ft-networks-link:hover{
-    background-color: var(--light-green);
-  }
-
+.ft-networks-link:hover,
 .ft-networks-link:focus {
   background-color: var(--light-green);
 }
@@ -621,8 +615,7 @@ background-color: 250ms;
     0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-    transform: 250ms;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn {
   position: absolute;
@@ -638,19 +631,16 @@ background-color: 250ms;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn:hover {
-  background-color: var(--violet);
-  border: none;
-}
+.modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--violet);
   border: none;
 }
 .md-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .md-icon:hover,
